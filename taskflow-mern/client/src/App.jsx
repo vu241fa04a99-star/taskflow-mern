@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 
-const API = `${import.meta.env.VITE_API_URL || "http://localhost:5000/api"}/tasks`;
+const API = "https://taskflow-mern-o8hh.onrender.com/api/tasks";
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
